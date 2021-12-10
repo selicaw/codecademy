@@ -1,0 +1,119 @@
+/* General Style */
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+/* Header & Navigation */
+
+header {
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: black;
+  z-index: 5;
+}
+
+.logo {
+  height: 50px;
+  margin: 10px;
+}
+
+.site-nav ul{
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.site-nav li a {
+  display: block;
+  color: seashell;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+}
+/* Mission Statement */
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  height: 700px;
+  background-image: url("images/img-mission-background.webp");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: black;
+  width: 100%;
+}
+
+/* Tea Menu  */
+.tea-menu {
+  padding: 10px;
+  line-height: 120%;
+}
+
+.featured-tea {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu-image {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+
+
+/* Locations */
+.background {
+  height: 500px;
+  max-width: 1200px;
+  background-image: url(images/img-locations-background.webp);
+  background-size: cover;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.address-card {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin: 15px 40px;
+  opacity: 1;
+  line-height: 200%;
+}
+
+/* Footer Elements */
+
+.contact {
+  height: 200px;
+}
+
+.site-footer {
+  text-align: left;
+  margin-left: 20px;
+}
