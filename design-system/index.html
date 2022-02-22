@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+  <title>Portfolio Style Guide</title>
+	<!-- styles -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Build A Design System 
+  This is a codecademy project to create a style guide. 
+  1. Colors
+  2. Fonts
+  3. Text Styles
+  4. Buttons
+  -->
+</head>
+
+<body>
+  <div class="site-container">
+	<header class="site-header">
+		<div class="wrapper">
+      <h1>Portfolio Style Guide</h1>
+      <nav class="nav-header">
+        <ul>
+        <li><a href="#color-palette">Color Palette</a></li>
+        <li><a href="#fonts">Fonts</a></li>
+        <li><a href="#typography">Typography</a></li>
+        <li><a href="#buttons">Buttons</a></li>
+        </ul>
+      </nav>
+		</div>
+	</header>
+
+	<main class="site-content">
+		<div class="wrapper">
+      <section class="design-component">
+        <h2 id="color-palette">Color Palette</h2>
+        <div class="color-container woodsmoke">
+          <p>Primary: Woodsmoke</p>
+          <p>#0C0D0D</p>
+        </div>
+        <div class="color-container lipstick">
+          <p>Secondary: Lipstick</p>
+          <p>#CE0073</p>
+        </div>
+        <div class="color-container white">
+          <p>Base: White</p>
+          <p>#FFFFFF</p>
+        </div>
+        <div class="color-container eerie">
+          <p>Text: Eerie Black</p>
+          <p>#242424</p>
+        </div>
+      </section>
+      <section class="design-component">
+        <h2 id="fonts">Fonts</h2>
+        <div class="font-container">
+          <p class="font-label">Poppins (light,  bold)</p>
+          <p>The quick brown fox jumps over the lazy dog.</p>
+          <p class="poppins-bold">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div class="font-container">
+          <p class="font-label">Bodoni Moda (regular, bold)</p>
+          <p class="bodoni-reg">The quick brown fox jumps over the lazy dog.</p>
+          <p class="bodoni-bold">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+      </section>
+      <section class="design-component">
+        <h2 id="typography">Typography</h2>
+        <div class="text-container">
+          <h1>Main Page Heading &#8826;h1&#8827; 50px</h1>
+          <p>Font: Bodoni Moda Bold (700) Color: Woodsmoke</p>
+          <h2>Subheading &#8826;h2&#8827; 38px</h2>
+          <p>Font: Bodoni Moda Regular Color: Woodsmoke</p>
+          <h3>Headline &#8826;h3&#8827; 32px</h3>
+          <p>Font: Bodoni Moda Regular Color: Woodsmoke</p>
+        </div>
+        <div class="text-container">
+          <p class="text-label">Paragraph Text</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique dui id augue ornare, et lobortis tellus dignissim. Donec porta ultrices nisl nec tincidunt. Donec pellentesque est est, at hendrerit massa porttitor et. In tempus erat est, ornare convallis tortor pellentesque a. Maecenas semper imperdiet lectus, et finibus sapien blandit nec. <strong>strong</strong> <a href="#">inline link</a> vestibulum lectus accumsan eu. Donec venenatis vulputate nunc, quis lobortis sapien dignissim feugiat. Nam vulputate cursus mi, id sodales justo. Nullam at turpis eu nibh eleifend malesuada. Nam auctor viverra diam a tincidunt. Cras hendrerit nulla lectus, nec placerat elit lacinia non. Donec efficitur justo et magna convallis, ac tincidunt purus venenatis. Donec eros massa, sollicitudin vitae velit a, sollicitudin efficitur leo. Maecenas eget ante diam. Sed aliquam augue in cursus consectetur.</p>
+          <p>Font: Poppins Light (300), 18px, Color: Eerie Black</p>
+        </div>
+        <div class="text-container">
+          <p class="text-label">Unordered List</p>
+          <ul>
+            <li>Unordered list item</li>
+            <li>Unordered list item</li>
+            <li>Unordered list item</li>
+            <li>Unordered list item</li>
+          </ul>
+          <p>Font: Poppins Light (300), 18px, Color: Eerie Black</p>
+          <p class="text-label">Ordered List</p>
+          <ol>
+            <li>Ordered list item</li>
+            <li>Ordered list item</li>
+            <li>Ordered list item</li>
+            <li>Ordered list item</li>
+          </ol>
+          <p>Font: Poppins Light (300), 18px, Color: Eerie Black</p>
+        </div>
+      </section>
+      <section class="design-component bottom-margin">
+        <h2 id="buttons">Buttons</h2>
+        <p class="button-label">Primary Buttons</p>
+        <div class="button-container ">
+          <button class="primary-woodsmoke">button text</button>
+          <p>Font: Poppins Bold 18px</p>
+          <p>Background: Woodsmoke</p>
+          <p>Color: White</p>
+          <p>Hover: Opacity at 0.85</p>
+         </div>
+         <div class="button-container">
+           <button class="primary-lipstick">button text</button>
+           <p>Font: Poppins Bold 18px</p>
+           <p>Background: Lipstick</p>
+           <p>Color: White</p>
+           <p>Hover: Opacity at 0.85</p>
+          </div>
+          <p class="button-label">Secondary Buttons</p>
+          <div class="button-container">
+            <button class="secondary-woodsmoke">button text</button>
+            <p>Font: Poppins Bold 18px</p>
+            <p>Background: White</p>
+            <p>Color: Woodsmoke</p>
+            <p>Border: 2px Solid Woodsmoke</p>
+            <p>Hover: Background to Woodsmoke Color to White</p>
+          </div>
+          <div class="button-container">
+            <button class="secondary-lipstick">button text</button>
+            <p>Font: Poppins Bold 18px</p>
+            <p>Background: White</p>
+            <p>Color: Lipstick</p>
+            <p>Border: 2px Solid Lipstick</p>
+            <p>Hover: Background to Lipstick Color to White</p>
+          </div>
+      </section>
+		</div>
+	</main>
+
+	<footer class="site-footer">
+		<div class="wrapper">
+      <nav class="nav-footer">
+        <ul>
+          <li><a href="#color-palette">Color Palette</a></li>
+          <li><a href="#fonts">Fonts</a></li>
+          <li><a href="#typography">Typography</a></li>
+          <li><a href="#buttons">Buttons</a></li>
+        </ul>
+      </nav>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
+

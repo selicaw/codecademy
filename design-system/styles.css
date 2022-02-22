@@ -1,0 +1,257 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* General Style */
+  
+  p, li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #242424;
+    font-size: 18px;
+  }
+  
+  h1 {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 700;
+    color: #0C0D0D;
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-family: 'Bodoni Moda', serif;
+    color: #0C0D0D;
+    font-size: 38px;
+  }
+  
+  h3 {
+    font-family: 'Bodoni Moda', serif;
+    color: #0C0D0D;
+    font-size: 32px;
+  }
+  
+  .design-component {
+    border: 2px solid #0C0D0D;
+    padding: 10px;
+    margin: 10px auto;
+  }
+  
+  a:link {
+    color: #CE0073;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: #CE0073;
+  }
+  
+  
+  /* Header Navigation*/
+  .site-header {
+    text-align: center;
+  }
+  
+  .nav-header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-header li a {
+    display: block;
+    color: #CE0073;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .nav-header a:hover {
+    background-color: #CE0073;
+    opacity: 0.25;
+    color: #FFF;
+    font-weight: 700;
+  }
+  
+  /* Add a color to the active/current link */
+  .nav-header a:active {
+    background-color: #0C0D0D;
+    color: #FFF;
+  }
+  
+  
+  /* Color Palette Style */
+  .color-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+  }
+  
+  .color-container.woodsmoke {
+    background-color: #0C0D0D;
+  }
+  
+  .color-container.woodsmoke p {
+    color: #FFF;
+    font-weight: 500;
+  }
+  
+  .color-container.lipstick {
+    background-color: #CE0073;
+  }
+  
+  .color-container.lipstick p {
+    color: #FFF;
+    font-weight: 500;
+  }
+  
+  .color-container.white {
+    color: #FFF;
+    border: 1px solid #242424;
+  }
+  
+  .color-container.white p {
+    font-weight: 500;
+  }
+  
+  .color-container.eerie {
+    background-color: #242424;
+  }
+  
+  .color-container.eerie p {
+    color: #FFF;
+    font-weight: 500;
+  }
+  
+  
+  /* Font and Typography Styles*/
+  
+  .font-container {
+    display: inline-block;
+    width: 80%;
+    min-height: 100px;
+  }
+  
+  .font-label, .text-label, .button-label {
+    color: #CE0073;
+    font-weight: 400;
+    text-transform: uppercase;
+  } 
+  
+  .poppins-bold {
+    font-weight: bold;
+  }  
+  
+  .bodoni-reg {
+    font-family: 'Bodoni Moda', serif;
+    }
+  
+  .bodoni-bold {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: bold;
+    }
+  
+  
+  /* Buttons */
+  
+  .bottom-margin {
+    margin-bottom: 200px;
+  }
+  
+  button {
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+  
+  .primary-woodsmoke {
+    background-color: #0C0D0D;
+    }
+  
+  .primary-woodsmoke:hover {
+    opacity: 0.85;
+    }
+  
+  .primary-lipstick {
+    background-color: #CE0073;
+  }
+  
+  .primary-lipstick:hover {
+    opacity: 0.85;
+  }
+  
+  .secondary-woodsmoke {
+    background-color: #FFF;
+    color: #0C0D0D;
+    border: 2px solid #0C0D0D;
+  }
+  
+  .secondary-woodsmoke:hover {
+    background-color: #0C0D0D;
+    color: #FFF;
+  }
+  
+  .secondary-lipstick {
+    background-color: #FFF;
+    color: #CE0073;
+    border: 2px solid #CE0073;
+  }
+  
+  .secondary-lipstick:hover {
+    background-color: #CE0073;
+    color: #FFF;
+  }
+  /* Footer Style */
+  .nav-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    background-color:#CE0073;
+    width: 100%;
+  }
+  
+  .nav-footer li {
+    float: left;
+  }
+  
+  .nav-footer li a {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .nav-footer a:hover {
+    color: #FFF;
+    font-weight: 700;
+  }
+  
+  /* Add a color to the active/current link */
+  .nav-footer a:active {
+    background-color: #0C0D0D;
+    color: #FFF;
+  }
+  
+  
