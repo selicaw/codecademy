@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>Must Love Dogs</title>
@@ -15,59 +15,67 @@
     <body>
         <!-- Header & Navigation -->
         <header>
-            <img src="resources/images/.jpg" alt="Must Love Dogs company logo">
-            <h1>Must Love Dogs</h1>
+            <img src="resources/images/dog-logo.png" alt="Must Love Dogs company logo" class="logo">
             <nav>
-                <ul>
-                    <li>Menu</li>
-                    <li>Dogs</li>
-                    <li>Location</li>
+                <ul class="nav-list">
+                    <li><a href="#menu">Café Offers</a></li>
+                    <li><a href="#dogs">Our Dogs</a></li>
+                    <li><a href="#location">Location</a></li>
                 </ul>
             </nav>
         </header>
         <!-- Banner -->
         <main>
-            <h2>Relax with the café's dogs while enjoying excellent coffee and all day breakfast.</h2>
-        </main>
+            <div class="banner">
+            <div class="mission">
+                <h2>Relax with the café's dogs while enjoying excellent coffee and all day breakfast.</h2>
+            </div>
+            </div>
         <!-- Products -->
         <section>
-            <h3>Menu</h3>
+            <h3 id="menu">What We Offer</h3>
+            <div class="products">
             <figure>
-                <img src="resources/images/latte.jpg" alt="latte art">
-                <figcaption>Coffee Bar</figcaption>
+                <img src="resources/images/latte.jpg" alt="latte art" class="menu-img">
+                <figcaption class="menu-item">Coffee Bar</figcaption>
             </figure>
             <figure>
-                <img src="resources/images/avocado-toast.jpg" alt="avocado toast">
-                <figcaption>All Day Breakfast</figcaption>
+                <img src="resources/images/avocado-toast.jpg" alt="avocado toast" class="menu-img">
+                <figcaption class="menu-item">All Day Breakfast</figcaption>
             </figure>
             <figure>
-                <img src="resources/images/dog-treats.jpg" alt="various dog treats">
-                <figcaption>Dog Treats</figcaption>
+                <img src="resources/images/dog-treats.jpg" alt="various dog treats" class="menu-img">
+                <figcaption class="menu-item">Dog Treats</figcaption>
             </figure>
             <figure>
-                <img src="resources/images/roasted-beans.jpg" alt="roasted coffee beans">
-                <figcaption>Roasted Beans</figcaption>
+                <img src="resources/images/roasted-beans.jpg" alt="roasted coffee beans" class="menu-img">
+                <figcaption class="menu-item">Roasted Beans</figcaption>
             </figure>
+            </div>
         </section>
         <!-- Team -->
         <section>
-            <h3>Our Dogs</h3>
+            <h3 id="dogs">Our Dogs</h3>
+            <div class="team">
             <figure>
-                <img src="resources/images/lucy.jpg" alt="Golden Doodle puppy">
-                <figcaption>Lucy</figcaption>
+                <img src="resources/images/lucy.jpg" alt="Golden Doodle puppy" class="team-img">
+                <figcaption class="team-name">Lucy</figcaption>
             </figure>
             <figure>
-                <img src="resources/images/jax.jpg" alt="A brown and white Australian Shepherd">
-                <figcaption>Jax</figcaption>
+                <img src="resources/images/jax.jpg" alt="A brown and white Australian Shepherd" class="team-img">
+                <figcaption class="team-name">Jax</figcaption>
             </figure>
             <figure>
-                <img src="resources/images/milo.jpg" alt="Bernese Mountain Dog">
-                <figcaption>Milo</figcaption>
+                <img src="resources/images/milo.jpg" alt="Bernese Mountain Dog" class="team-img">
+                <figcaption class="team-name">Milo</figcaption>
             </figure>
+            </div>
         </section>
+        </main>
         <!-- Location -->
-        <footer>
-            <p>12345 Any Street, USA</p>
+        <footer id="location">
+            <h3>Location</h3>
+            <p>12345 Any Street, ST, USA</p>
         </footer>
     </body>
 </html>

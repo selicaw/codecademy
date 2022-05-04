@@ -1,0 +1,120 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #242424;
+}
+
+h1, h2 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0c0d0d;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #CE0073;
+    text-align: center;
+    padding: 5rem;
+}
+
+/* Header Styles */
+
+.nav-list {
+   display: flex;
+   justify-content: flex-end;
+   margin: 1rem;
+}
+
+.logo {
+    padding-top: 1rem;
+    margin-left: 1rem;
+
+}
+
+nav a {
+    margin: 1rem;
+    color: #CE0073;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+/* Mission Statement Styles */
+.banner {
+    background-image: url("../images/banner.jpg");
+    height: 50rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission {
+    background-color: #fff;
+    width: 100%;
+    opacity: 0.8;
+    padding: 2rem;
+}
+
+/* Products Styles */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-img {
+    height: 300px;
+    width: auto;
+}
+
+
+.menu-item {
+    text-align: center;
+    padding: 2rem;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* Team Styles */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-img {
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.team-name {
+    text-align: center;
+    padding: 2rem;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding-bottom: 2rem;
+}
